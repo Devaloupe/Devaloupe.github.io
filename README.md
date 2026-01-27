@@ -10,6 +10,7 @@
         </head>
 
         <body>
+            <section>
             <h1>Education</h1>
             <p>2022 - Present</p>
             <p>University of Central Florida,
@@ -33,11 +34,9 @@
             
             <h1>Certifications</h1>
             <p>2025 - IT Fundamentals Pro</p>
-
-            <h1>Extracurriculars</h1>
-            <p>2024-Present, Graphic designer and mask distributor for Mask Up! UCF (AKA Masked Knights)</p>
-            <p>2023 - Dancer for Shining Knights Kpop dance group</p>
+            </section>
             
+            <section>
             <h1>Competencies</h1>
             <ul>
               <li>C</li>
@@ -55,14 +54,22 @@
               <li>Research</li>
               <li>Graphic design</li>
             </ul>
-
+            
+            
             <h1>Languages</h1>
             <ul>
               <li>English</li>
               <li>Spanish (Intermediate)</li>
               <li>Chinese (Beginner)</li>
             </ul>
+            </section>
 
+            <section>
+               <ul>
+                   <li>Project 1</li>
+                   <li>Project 2</li>
+               </ul>
+            </section>
         </body>
 
     </html>
