@@ -1,1 +1,68 @@
 # Devaloupe.github.io
+
+ <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Resume</title>
+            <h1>Christina Chen</h1>
+            <h1>ch186689@ucf.edu</h1>
+            <p>www.linkedin.com/in/christina-chen-59710a229<p>
+        </head>
+
+        <body>
+            <h1>Education</h1>
+            <p>2022 - Present</p>
+            <p>University of Central Florida,
+            Bachelor of Information Technology</p>
+            
+            
+            <p>2021-2022</p>
+            <p>Palm Beach State College, 
+            Associate of Arts, GPA 4.0</p>
+            
+
+            <h1>Work Experience</h1>
+            <p>2020-2022</p>
+            <p>Barista & Server - Greenhouse Pho & Boba</p>
+            <ul>
+              <li>Follow food safety standards to ensure health of customers</li>
+              <li>Work together with colleagues to efficiently complete tasks and maintain quality service</li>
+              <li>Consistently arrive on time for opening and closing the store</li>
+              <li>Effectively communicate with customers to clear confusion about products and services</li>
+            </ul>
+            
+            <h1>Certifications</h1>
+            <p>2025 - IT Fundamentals Pro</p>
+
+            <h1>Extracurriculars</h1>
+            <p>2024-Present, Graphic designer and mask distributor for Mask Up! UCF (AKA Masked Knights)</p>
+            <p>2023 - Dancer for Shining Knights Kpop dance group</p>
+            
+            <h1>Competencies</h1>
+            <ul>
+              <li>C</li>
+              <li>Python</li>
+              <li>HTML</li>
+            </ul>
+
+            <h1>Skills</h1>
+            <ul>
+              <li>Customer service</li>
+              <li>Teamwork</li>
+              <li>Time management</li>
+              <li>Effective communication</li>
+              <li>Critical thinking</li>
+              <li>Research</li>
+              <li>Graphic design</li>
+            </ul>
+
+            <h1>Languages</h1>
+            <ul>
+              <li>English</li>
+              <li>Spanish (Intermediate)</li>
+              <li>Chinese (Beginner)</li>
+            </ul>
+
+        </body>
+
+    </html>
