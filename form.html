@@ -12,40 +12,41 @@
 
         <body>
         <h1>Order a pizza!</h1>
-        <h1>Contact information</h1>
+        <h2>Contact information</h2>
         <form> 
             <label for="name">Full name:</label><br>
-            <input type = "text" id="name" name="name"><br>
+            <input type = "text" id="name" name="name" required><br>
+         
 
             <label for="phone">Phone number:</label><br>
-            <input type = "tel" id="phone" name="phone"><br>
+            <input type = "tel" id="phone" name="phone" required><br>
 
             <label for="email">Email:</label><br>
-            <input type = "text" id="email" name="email"><br>
+            <input type = "text" id="email" name="email" required><br>
             
-        </form>
-                
-        <h1>Select pizza size</h1>
+    
+            
+        <h2>Select pizza size</h2>
         <select name="size" id = "size">
-            <option value="m">Medium</option>
-            <option value="l">Large</option>
-            <option value="xl">XLarge</option>
+            <option disabled selected value>--Select Size--</option>
+            <option value="m" required>Medium</option>
+            <option value="l" required>Large</option>
+            <option value="xl" required>XLarge</option>
         </select>
 
-        <h1>Select sauce</h1>
-        <form>
-            <input type="radio" id="marinara" name="sauce" value="Marinara">
+        <h2>Select sauce</h2>
+            <input type="radio" id="marinara" name="sauce" value="Marinara" required>
             <label for="marinara">Marinara</label>
 
-            <input type="radio" id="ranch" name="sauce" value="Ranch">
+            <input type="radio" id="ranch" name="sauce" value="Ranch" required>
             <label for="ranch">Ranch</label>
 
-            <input type="radio" id="none" name="sauce" value="No sauce">
+            <input type="radio" id="none" name="sauce" value="No sauce" required>
             <label for="none">No sauce</label>
-        </form>
+       
 
-        <h1>Select toppings</h1>
-        <form>
+        <h2>Select toppings</h2>
+        
             <input type = "checkbox" id="topping1" name="topping1" value="Pepperoni">
             <label for="topping1">Pepperoni</label>
             <input type = "checkbox" id="topping2" name="topping2" value="Sausage">
@@ -58,13 +59,16 @@
             <label for="topping5">Peppers</label>
             <input type = "checkbox" id="topping6" name="topping6" value="Onions">
             <label for="topping6">Onions</label>
-        </form>
+        
 
-        <h1>Additional Instructions</h1>
+        <h2>Additional Instructions</h2>
         <textarea name="instructions" rows="8" cols="20">
         Add instructions
         </textarea>
-        <input type="submit" value="Submit">
+
+         <button>Submit</button>
+
+        </form>
 
         <table >
             <tr>
