@@ -1,0 +1,61 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+header{
+  background-color: yellow;
+  position:fixed;
+  width:auto;
+  right:0;
+  left:120px;
+  top:0;
+  text-align:center;
+}
+
+
+#jumpMenu{
+  background-color:pink;
+  position:fixed;
+  height:100%;
+  width:100px;
+  left:0;
+  top:0;
+  padding:10px;
+  text-align: center;
+  line-height: 40px;
+  
+}
+main{
+  position:relative;
+  top:20px;
+  left:87px;
+  right:0;
+  padding:20px;
+}
+h1{
+  text-align: center;
+}
+div{
+  
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  left:80px;
+  
+}
+article{
+  margin: 20px;
+  padding:20px;
+  width: 200px;
+}
+#thanks{
+  background-color:lightblue;
+  position:fixed;
+  bottom:0;
+  right:0;
+  border:1px solid black;
+  padding:20px;
+  font-size: 30px;
+}
