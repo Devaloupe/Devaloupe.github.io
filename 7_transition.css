@@ -78,7 +78,7 @@ article:hover {
   font-size: x-large;
   color:black;
 }
-.container a::after{
+a[target="www.google.com"]::after{
   content:"arrow.png";
 }
 #thanks{
