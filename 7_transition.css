@@ -79,7 +79,7 @@ article:hover {
   color:black;
 }
 a[target="http://www.google.com"]::after{
-  background-image:"arrow.png";
+  background-image: url ('arrow.png');
 }
 #thanks{
   background-color:lightblue;
