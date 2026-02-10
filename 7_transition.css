@@ -25,14 +25,25 @@ button:hover {
 }
 #jumpMenu{
   background-color: gold;
+  list-style-type: none;
+  margin:0;
+  padding:0;
   height:auto;
   display: none;
 }
 
-nav:hover #jumpMenu{
+#recentArticles:hover + #jumpMenu{
   display:block;
 }
-
+#jumpMenu:hover{
+  display:block;
+}
+li:hover{
+  background-color: blue;
+}
+li a:hover{
+  color: white;
+}
 header{
   background-color: yellow;
   position:fixed;
@@ -78,8 +89,8 @@ article:hover {
   font-size: x-large;
   color:black;
 }
-a[target="https://www.google.com"]::after{
-  background-image: "arrow.png";
+div a::after{
+  content: url("https://upload.wikimedia.org/wikipedia/commons/9/96/Link-external-small-ltr-progressive.svg");
 }
 #thanks{
   background-color:lightblue;
