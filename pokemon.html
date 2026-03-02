@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PokeAPI Fetch</title>
+        <link rel="stylesheet" href="pokecss.css">
+        <script src="pokejs.js"></script>
+    </head>
+    <body>
+      
+        <header>
+            <h1>Fetch Pokemon</h1>
+        </header>
+        <container>
+        <main>
+            <div id="name">
+                <label for="input">Name or ID</label>
+                <textarea id="input" name="input"></textarea>
+                <button onclick="doFetch()" id="find" type="button">Find</button>
+            </div>
+            
+            <img id="photo" class="center" src="https://www.pngkey.com/png/full/343-3434526_missingno-missingno-sprite.png" alt="missingno">
+            
+            <audio id="cries" controls>
+              src="";
+            </audio>
+
+            <div id="moves">
+              <select id="moves1"></select>
+              <select id="moves2"></select>
+              <select id="moves3"></select>
+              <select id="moves4"></select>
+            </div>
+
+            <button onclick="addTeam()" type="button">Add to Team</button>
+            <div id="team">
+              <p>Team</p>
+            </div>
+        </main>
+        </container>
+    </body>
+
+</html>

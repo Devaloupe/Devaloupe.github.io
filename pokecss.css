@@ -1,0 +1,41 @@
+body{
+  padding: 25pxpx;
+  text-align: center;
+  border-style:solid;
+  border-width:5px;
+  border-color:orange;
+  border-radius:30px;
+  background-color: lightblue;
+  
+  align-content: center;
+}
+.title {
+	color: #5C6AC4;
+}
+container{
+  background-color: white;
+}
+h1{
+  text-align: center;
+}
+.center{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+}
+img{
+  padding:20px;
+  max-width:200px;
+  max-height:400px;
+}
+ul{
+  float:right;
+  padding: 10px;
+}
+section{
+  border-style:solid;
+  border-width:auto;
+  display:inline-block;
+  
+}
