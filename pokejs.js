@@ -18,13 +18,6 @@ async function doFetch(){
   showNoise(pokemon);
   
   showMoves(pokemon);
-  
-  //fetch(finalURL)
-  //.then(response => response.json())
-  //.then(myJSONDocument => processJSON(myJSONDocument))
-  //.then(sprite => showPicture(sprite));
-  
-  
 }
 function processJSON(json){
     let id = json.id;
@@ -46,6 +39,12 @@ function showNoise(json){
 }
 
 function showMoves(json){
+ 
+  clear(document.getElementById("moves1"));
+  clear(document.getElementById("moves2"));
+  clear(document.getElementById("moves3"));
+  clear(document.getElementById("moves4"));
+
   const array = json.moves;
   const moveNames = new Array();
   for (let i in array){
@@ -79,6 +78,7 @@ function showMoves(json){
 
 }
 function addTeam(){
+  
   //let team = document.getElementById("team");
   let teamMember = document.createElement("section");
   //teamMember.style.border-style = solid;
@@ -109,4 +109,10 @@ function addTeam(){
     //list.appendChild(listItem);
   //}
   //document.getElementById("team").appendChild(list);
+}
+function clear(selectElement) {
+   var i, L = selectElement.options.length - 1;
+   for(i = L; i >= 0; i--) {
+      selectElement.remove(i);
+   }
 }
